@@ -3,3 +3,24 @@
 //    width: 100%;
 //  }
 //}
+
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #0360AF;
+
+@font-face {
+  font-family: "B Yekan";
+  src: url(../fonts/BYekan.eot), url("../fonts/BYekan.ttf"), url("../fonts/BYekan.woff");
+}
+
+body {
+  font-family: "B Yekan";
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+.navbar {
+  border-bottom: $primary-color solid 3px;
+  opacity: 0.8;
+}
+
