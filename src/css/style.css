@@ -10,3 +10,20 @@ body {
 .navbar {
   border-bottom: #0360AF solid 3px;
   opacity: 0.8; }
+
+#home-section {
+  background: url("../img/todo.jpg") no-repeat center top fixed;
+  background-size: cover; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh; }
+  #home-section .fa {
+    color: #0360AF;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+#home-form {
+  background-color: #0360AF; }

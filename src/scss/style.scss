@@ -7,6 +7,8 @@
 $bg-color: #333;
 $font-color: #fff;
 $primary-color: #0360AF;
+$dark-overlay: rgba(#000, 0.7);
+$home-icon-size: 30px;
 
 @font-face {
   font-family: "B Yekan";
@@ -14,7 +16,7 @@ $primary-color: #0360AF;
 }
 
 body {
-  font-family: "B Yekan";
+  font-family: "B Yekan", "sans-serif";
   background-color: $bg-color;
   color: $font-color;
 }
@@ -24,3 +26,25 @@ body {
   opacity: 0.8;
 }
 
+#home-section {
+  background: url('../img/todo.jpg') no-repeat center top fixed;
+  background-size: cover;
+
+  .dark-overlay {
+  background-color: $dark-overlay;
+  width: 100%;
+  height: 100vh;
+  }
+
+  .fa {
+    color: $primary-color;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $home-icon-size;
+  }
+}
+
+#home-form {
+  background-color: $primary-color;
+}
