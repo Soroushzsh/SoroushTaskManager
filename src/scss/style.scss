@@ -43,8 +43,75 @@ body {
     border-radius: 5px;
     font-size: $home-icon-size;
   }
+
+  #home-form {
+    background-color: $primary-color;
+  }
 }
 
-#home-form {
+#learn-head-section {
   background-color: $primary-color;
+  color: $font-color;
+
+  h3 {
+    position: relative;
+  }
+
+  h3:after {
+    content:"";
+    position: absolute;
+    top: 40px;
+    right: calc(50% - 110px);
+    height: 2px;
+    width: 20%;
+    background-color: #343a40;
+  }
+}
+
+#learn-section {
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+#features-head-section {
+  h3 {
+    position: relative;
+  }
+
+  h3:after {
+    content:"";
+    position: absolute;
+    top: 40px;
+    right: calc(50% - 110px);
+    height: 2px;
+    width: 20%;
+    background-color: $primary-color;
+  }
+}
+
+#features-section {
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+#contact-section {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+}
+
+
+#footer-section {
+  hr {
+    background-color: #fff;
+  }
 }
